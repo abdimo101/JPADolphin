@@ -62,6 +62,6 @@ public class SwimStyle implements Serializable {
     public void setPersons(List<Person> persons) {
         this.persons = persons;
     }
-    
-    
+
+
 }

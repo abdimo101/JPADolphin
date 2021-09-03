@@ -74,8 +74,9 @@ public class Fee implements Serializable {
     public void setPerson(Person person) {
         this.person = person;
     }
-    
-    
-    
-    
+
+    @Override
+    public String toString() {
+        return " " + amount;
+    }
 }

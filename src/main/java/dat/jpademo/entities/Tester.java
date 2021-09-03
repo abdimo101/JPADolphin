@@ -82,7 +82,7 @@ public class Tester {
         TypedQuery<SwimStyle> query1 = em.createQuery("select count (swimstyle) from SwimStyle swimstyle", SwimStyle.class);
         List<SwimStyle> styleList = query1.getResultList();
         for (SwimStyle s:styleList) {
-            System.out.println(s.getPersons().toString());
+
         }
 
 

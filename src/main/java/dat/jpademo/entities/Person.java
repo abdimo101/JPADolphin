@@ -27,7 +27,7 @@ public class Person implements Serializable {
     private static final long serialVersionUID = 1L;
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
-    private Long p_id;
+    private int p_id;
     private String name;
     private int year;
     @OneToOne(cascade = CascadeType.PERSIST)
@@ -73,11 +73,11 @@ public class Person implements Serializable {
     }
     
     
-    public Long getP_id() {
+    public int getP_id() {
         return p_id;
     }
 
-    public void setP_id(Long p_id) {
+    public void setP_id(int p_id) {
         this.p_id = p_id;
     }
 

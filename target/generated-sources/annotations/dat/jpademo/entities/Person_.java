@@ -8,7 +8,7 @@ import javax.persistence.metamodel.ListAttribute;
 import javax.persistence.metamodel.SingularAttribute;
 import javax.persistence.metamodel.StaticMetamodel;
 
-@Generated(value="EclipseLink-2.5.2.v20140319-rNA", date="2021-09-02T22:56:42")
+@Generated(value="EclipseLink-2.5.2.v20140319-rNA", date="2021-09-03T12:56:04")
 @StaticMetamodel(Person.class)
 public class Person_ { 
 
@@ -17,6 +17,6 @@ public class Person_ {
     public static volatile SingularAttribute<Person, Integer> year;
     public static volatile SingularAttribute<Person, String> name;
     public static volatile ListAttribute<Person, SwimStyle> styles;
-    public static volatile SingularAttribute<Person, Long> p_id;
+    public static volatile SingularAttribute<Person, Integer> p_id;
 
 }
